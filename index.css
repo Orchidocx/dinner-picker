@@ -1,0 +1,29 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.dinner-picker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dinner-sentence {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#dinner-text,
+#dinner-text-span {
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+#dinner-text:hover,
+#dinner-text-span:hover {
+  background-color: black;
+  color: white;
+}
