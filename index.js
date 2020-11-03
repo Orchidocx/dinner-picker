@@ -54,6 +54,8 @@ const reset = () => {
     isRolling = true;
     selectButton.toggleAttribute("disabled");
     resetButton.toggleAttribute("disabled");
+    dinner.removeEventListener("click", getAnchor);
+    dinnerSpan.removeEventListener("click", getAnchor);
   }
 };
 
